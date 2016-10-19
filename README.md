@@ -30,7 +30,9 @@ https://www.terraform.io/intro/getting-started/install.html
 ### tf-files Configuration Instructions:
 
 auth.tf:  modify public_key_path and key_name to match your environment
+
 main.tf:  modify key_name to an SSH key pair you already created in AWS
+
 config.tf: modify your aws key and aws secret to match your AWS account
 
 
@@ -39,7 +41,9 @@ config.tf: modify your aws key and aws secret to match your AWS account
 cd tf-files
 
 To test, run: terraform plan
+
 To execute, run: terraform apply
+
 To cleanup, run: terraform destroy
 
 ## Maintainers
