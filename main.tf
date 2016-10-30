@@ -13,6 +13,7 @@
 # Create a VPC to launch our instances into
 resource "aws_vpc" "test3" {
   cidr_block = "192.168.10.0/24"
+  enable_dns_hostnames = "true"
 }
 
 # Create an internet gateway to give our subnet access to the outside world
